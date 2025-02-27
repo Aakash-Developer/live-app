@@ -141,7 +141,7 @@ app.delete("/delete/:employeeId/:filename", async (req, res) => {
   }
 });
 
-// Delete all images for a specific employee
+// Delete all images for a specific employee/
 app.delete("/delete/:employeeId", async (req, res) => {
   const { employeeId } = req.params;
   try {
